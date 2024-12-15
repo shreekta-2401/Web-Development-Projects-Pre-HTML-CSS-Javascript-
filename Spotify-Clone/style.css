@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+nav{
+    background-color: black;
+    height: 50px;
+    font-family: "Raleway", sans-serif;
+    
+
+}
+nav ul{
+    display: flex;
+    color: white;
+    list-style-type: none;
+    align-items: center;
+}
+nav ul li{
+    padding: 10px;
+    align-items: center;
+    font-family: "Poppins", serif;
+}
+.brand img{
+    width: 30px;
+}
+.brand{
+    display: flex;
+    font-size: bolder;
+    align-items: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+}
+body{
+    background-color: antiquewhite;
+}
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    font-family: "Poppins", serif;
+    display: flex;
+    margin: 24px auto;
+    width: 80%;
+    border-radius: 10px;
+    padding: 36px;
+    background-image: url("bg.jpg");
+    background-position: 80%;
+
+}
+.songItemsContainer{
+    margin: 30px 0;
+}
+.songItems{
+    margin: 12px;
+    height: 25px;
+    width: 60%;
+    display: flex;
+    background-color: white;
+    color: gray;
+    border-radius: 34px;
+    padding: 12px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.timeStamp{
+    align-items: center;
+    display: flex;
+    margin: 0 12px;
+}
+
+.songItems img{
+    width: 45px;
+    height: 0 23px;
+    border-radius: 34px ;
+}
+.timeStamp i{
+    cursor: pointer;
+    margin: 0 10px;
+}
+.bottom{
+    position: sticky;
+    height: 85px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+.songInfo{
+    position: absolute;
+    left: 13vw;
+    font-family: "Poppins", serif;
+}
+.songInfo img{
+    width: 45px;
+    height: 0 23px;
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+    
+}
+.icons{
+    margin: 10px;
+}
+.icons i{
+    cursor: pointer;
+}
+#myProgressBar{
+    width: 60vw;
+
+}
+#myProgressBar {
+    -webkit-appearance: none; /* Remove default styles for Safari */
+    appearance: none;
+    width: 75%; /* Full width */
+    height: 5px; /* Height of the track */
+    background: white; /* Track color */
+    border-radius: 5px; /* Optional: rounded edges */
+    outline: none; /* Remove focus outline */
+  }
+  
+  #myProgressBar::-webkit-slider-runnable-track {
+    height: 4px; /* Same height as the track */
+    background: white; /* Track color */
+    border-radius: 5px; /* Optional: rounded edges */
+  }
+  
+  #myProgressBar::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Remove default thumb styles */
+    appearance: none;
+    width: 15px; /* Thumb width */
+    height: 15px; /* Thumb height */
+    background: white; /* Thumb color */
+    border: 1px solid #ccc; /* Optional: border for contrast */
+    border-radius: 50%; /* Make the thumb circular */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin-top: -6px; /* Align the thumb vertically on the track */
+  }
+  
+  
